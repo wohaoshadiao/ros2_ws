@@ -1,0 +1,202 @@
+[0.000000] (-) TimerEvent: {}
+[0.001022] (-) JobUnselected: {'identifier': 'car_launch'}
+[0.002085] (-) JobUnselected: {'identifier': 'cartographer'}
+[0.002606] (-) JobUnselected: {'identifier': 'cartographer_ros'}
+[0.003009] (-) JobUnselected: {'identifier': 'cartographer_ros_msgs'}
+[0.003356] (-) JobUnselected: {'identifier': 'cartographer_rviz'}
+[0.003429] (-) JobUnselected: {'identifier': 'ros2_opencv'}
+[0.003474] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.003520] (robocar_test_cpp) JobQueued: {'identifier': 'robocar_test_cpp', 'dependencies': OrderedDict()}
+[0.003569] (robocar_test_cpp) JobStarted: {'identifier': 'robocar_test_cpp'}
+[0.030822] (robocar_test_cpp) JobProgress: {'identifier': 'robocar_test_cpp', 'progress': 'cmake'}
+[0.033158] (robocar_test_cpp) JobProgress: {'identifier': 'robocar_test_cpp', 'progress': 'build'}
+[0.035515] (robocar_test_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/robocar_test_cpp', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/build/robocar_test_cpp', 'env': OrderedDict([('HOSTNAME', 'warnie'), ('GIT_ASKPASS', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/cartographer_rviz/lib:/root/ros2_ws/install/cartographer_ros/lib:/root/ros2_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-68549143-8077-4743-9875-84966345cd0e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/node'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-f285fd1d-9376-4a47-8352-1dbec715791d.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/ros2_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/root/ros2_ws/install/cartographer/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/ros2_ws/install/cartographer/bin:/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-f285fd1d-9376-4a47-8352-1dbec715791d.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', 'unix:0'), ('LANG', 'en_US.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-3ce2b43cc6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-f285fd1d-9376-4a47-8352-1dbec715791d.sock'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/car_launch:/root/ros2_ws/install/robocar_test_cpp:/root/ros2_ws/install/rplidar_ros:/root/ros2_ws/install/ros2_opencv:/root/ros2_ws/install/cartographer_rviz:/root/ros2_ws/install/cartographer_ros:/root/ros2_ws/install/cartographer_ros_msgs:/root/ros2_ws/install/Test_FirstPkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros2_ws/build/robocar_test_cpp'), ('PYTHONPATH', '/root/ros2_ws/install/ros2_opencv/lib/python3.10/site-packages:/root/ros2_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/car_launch:/root/ros2_ws/install/robocar_test_cpp:/root/ros2_ws/install/rplidar_ros:/root/ros2_ws/install/cartographer_rviz:/root/ros2_ws/install/cartographer_ros:/root/ros2_ws/install/cartographer_ros_msgs:/root/ros2_ws/install/cartographer:/root/ros2_ws/install/Test_FirstPkg:/root/ros2_ws/install/ros2_opencv:/opt/ros/humble')]), 'shell': False}
+[0.099243] (-) TimerEvent: {}
+[0.116778] (robocar_test_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199346] (-) TimerEvent: {}
+[0.299924] (-) TimerEvent: {}
+[0.400607] (-) TimerEvent: {}
+[0.501367] (-) TimerEvent: {}
+[0.597903] (robocar_test_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.601469] (-) TimerEvent: {}
+[0.701946] (-) TimerEvent: {}
+[0.753554] (robocar_test_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.765810] (robocar_test_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.788061] (robocar_test_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.802114] (-) TimerEvent: {}
+[0.823331] (robocar_test_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.871757] (robocar_test_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.902275] (-) TimerEvent: {}
+[0.995997] (robocar_test_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.002412] (-) TimerEvent: {}
+[1.003010] (robocar_test_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.102516] (-) TimerEvent: {}
+[1.202917] (-) TimerEvent: {}
+[1.303419] (-) TimerEvent: {}
+[1.394406] (robocar_test_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.403535] (-) TimerEvent: {}
+[1.503932] (-) TimerEvent: {}
+[1.578845] (robocar_test_cpp) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.604083] (-) TimerEvent: {}
+[1.701169] (robocar_test_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.704180] (-) TimerEvent: {}
+[1.804694] (-) TimerEvent: {}
+[1.905399] (-) TimerEvent: {}
+[1.931201] (robocar_test_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.931984] (robocar_test_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.932370] (robocar_test_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.934914] (robocar_test_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.937847] (robocar_test_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.938447] (robocar_test_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.940374] (robocar_test_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.943813] (robocar_test_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.995367] (robocar_test_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[2.005743] (-) TimerEvent: {}
+[2.014725] (robocar_test_cpp) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/robocar_test_cpp\n'}
+[2.081134] (robocar_test_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_listener\x1b[0m\n'}
+[2.081676] (robocar_test_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[2.081984] (robocar_test_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[2.106029] (-) TimerEvent: {}
+[2.127540] (robocar_test_cpp) StdoutLine: {'line': b'[ 66%] Built target talker\n'}
+[2.128250] (robocar_test_cpp) StdoutLine: {'line': b'[ 66%] Built target listener\n'}
+[2.140011] (robocar_test_cpp) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/lidar_listener.dir/src/receive_lidar_function.cpp.o\x1b[0m\n'}
+[2.206096] (-) TimerEvent: {}
+[2.307008] (-) TimerEvent: {}
+[2.407511] (-) TimerEvent: {}
+[2.508210] (-) TimerEvent: {}
+[2.608772] (-) TimerEvent: {}
+[2.709307] (-) TimerEvent: {}
+[2.809855] (-) TimerEvent: {}
+[2.910503] (-) TimerEvent: {}
+[3.010995] (-) TimerEvent: {}
+[3.111477] (-) TimerEvent: {}
+[3.212112] (-) TimerEvent: {}
+[3.312761] (-) TimerEvent: {}
+[3.413458] (-) TimerEvent: {}
+[3.514519] (-) TimerEvent: {}
+[3.615473] (-) TimerEvent: {}
+[3.716213] (-) TimerEvent: {}
+[3.816739] (-) TimerEvent: {}
+[3.917601] (-) TimerEvent: {}
+[4.018274] (-) TimerEvent: {}
+[4.118742] (-) TimerEvent: {}
+[4.219208] (-) TimerEvent: {}
+[4.319667] (-) TimerEvent: {}
+[4.420036] (-) TimerEvent: {}
+[4.520429] (-) TimerEvent: {}
+[4.620839] (-) TimerEvent: {}
+[4.721419] (-) TimerEvent: {}
+[4.822457] (-) TimerEvent: {}
+[4.923220] (-) TimerEvent: {}
+[5.023871] (-) TimerEvent: {}
+[5.124553] (-) TimerEvent: {}
+[5.225323] (-) TimerEvent: {}
+[5.325917] (-) TimerEvent: {}
+[5.426568] (-) TimerEvent: {}
+[5.527006] (-) TimerEvent: {}
+[5.627392] (-) TimerEvent: {}
+[5.727782] (-) TimerEvent: {}
+[5.828317] (-) TimerEvent: {}
+[5.928695] (-) TimerEvent: {}
+[6.029188] (-) TimerEvent: {}
+[6.129582] (-) TimerEvent: {}
+[6.230396] (-) TimerEvent: {}
+[6.331266] (-) TimerEvent: {}
+[6.432013] (-) TimerEvent: {}
+[6.532511] (-) TimerEvent: {}
+[6.633338] (-) TimerEvent: {}
+[6.734351] (-) TimerEvent: {}
+[6.835199] (-) TimerEvent: {}
+[6.935697] (-) TimerEvent: {}
+[7.036363] (-) TimerEvent: {}
+[7.136843] (-) TimerEvent: {}
+[7.237526] (-) TimerEvent: {}
+[7.338095] (-) TimerEvent: {}
+[7.439149] (-) TimerEvent: {}
+[7.539918] (-) TimerEvent: {}
+[7.640442] (-) TimerEvent: {}
+[7.741052] (-) TimerEvent: {}
+[7.841731] (-) TimerEvent: {}
+[7.942252] (-) TimerEvent: {}
+[8.042915] (-) TimerEvent: {}
+[8.143748] (-) TimerEvent: {}
+[8.244833] (-) TimerEvent: {}
+[8.346080] (-) TimerEvent: {}
+[8.446561] (-) TimerEvent: {}
+[8.547033] (-) TimerEvent: {}
+[8.647631] (-) TimerEvent: {}
+[8.748268] (-) TimerEvent: {}
+[8.848698] (-) TimerEvent: {}
+[8.949132] (-) TimerEvent: {}
+[9.049559] (-) TimerEvent: {}
+[9.150013] (-) TimerEvent: {}
+[9.250431] (-) TimerEvent: {}
+[9.350844] (-) TimerEvent: {}
+[9.451296] (-) TimerEvent: {}
+[9.551758] (-) TimerEvent: {}
+[9.652209] (-) TimerEvent: {}
+[9.752643] (-) TimerEvent: {}
+[9.834560] (robocar_test_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLidarListener::LidarListener()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.834876] (robocar_test_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:11:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.835055] (robocar_test_cpp) StderrLine: {'line': b'   11 |         \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<sensor_msgs::msg::LaserScan>(\n'}
+[9.835201] (robocar_test_cpp) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.835336] (robocar_test_cpp) StderrLine: {'line': b'      |         \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[9.852757] (-) TimerEvent: {}
+[9.953136] (-) TimerEvent: {}
+[10.053527] (-) TimerEvent: {}
+[10.153903] (-) TimerEvent: {}
+[10.254312] (-) TimerEvent: {}
+[10.354686] (-) TimerEvent: {}
+[10.455048] (-) TimerEvent: {}
+[10.555609] (-) TimerEvent: {}
+[10.656007] (-) TimerEvent: {}
+[10.756383] (-) TimerEvent: {}
+[10.856828] (-) TimerEvent: {}
+[10.957283] (-) TimerEvent: {}
+[11.057710] (-) TimerEvent: {}
+[11.158152] (-) TimerEvent: {}
+[11.258589] (-) TimerEvent: {}
+[11.359017] (-) TimerEvent: {}
+[11.459437] (-) TimerEvent: {}
+[11.559901] (-) TimerEvent: {}
+[11.660424] (-) TimerEvent: {}
+[11.760817] (-) TimerEvent: {}
+[11.861212] (-) TimerEvent: {}
+[11.961587] (-) TimerEvent: {}
+[12.061976] (-) TimerEvent: {}
+[12.162345] (-) TimerEvent: {}
+[12.262733] (-) TimerEvent: {}
+[12.363119] (-) TimerEvent: {}
+[12.463532] (-) TimerEvent: {}
+[12.563900] (-) TimerEvent: {}
+[12.664292] (-) TimerEvent: {}
+[12.764700] (-) TimerEvent: {}
+[12.865123] (-) TimerEvent: {}
+[12.965500] (-) TimerEvent: {}
+[13.065950] (-) TimerEvent: {}
+[13.166348] (-) TimerEvent: {}
+[13.266750] (-) TimerEvent: {}
+[13.367216] (-) TimerEvent: {}
+[13.467632] (-) TimerEvent: {}
+[13.568047] (-) TimerEvent: {}
+[13.668545] (-) TimerEvent: {}
+[13.769025] (-) TimerEvent: {}
+[13.869411] (-) TimerEvent: {}
+[13.969809] (-) TimerEvent: {}
+[14.070191] (-) TimerEvent: {}
+[14.170571] (-) TimerEvent: {}
+[14.271033] (-) TimerEvent: {}
+[14.371489] (-) TimerEvent: {}
+[14.471865] (-) TimerEvent: {}
+[14.572264] (-) TimerEvent: {}
+[14.672636] (-) TimerEvent: {}
+[14.773032] (-) TimerEvent: {}
+[14.873453] (-) TimerEvent: {}
+[14.973834] (-) TimerEvent: {}
+[15.074233] (-) TimerEvent: {}
+[15.075777] (robocar_test_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lidar_listener.dir/build.make:76: CMakeFiles/lidar_listener.dir/src/receive_lidar_function.cpp.o] Error 1\n'}
+[15.076135] (robocar_test_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/lidar_listener.dir/all] Error 2\n'}
+[15.076357] (robocar_test_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.080112] (robocar_test_cpp) CommandEnded: {'returncode': 2}
+[15.109098] (robocar_test_cpp) JobEnded: {'identifier': 'robocar_test_cpp', 'rc': 2}
+[15.120115] (-) EventReactorShutdown: {}

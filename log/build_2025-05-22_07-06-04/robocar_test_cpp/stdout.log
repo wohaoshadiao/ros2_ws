@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target lidar_listener[0m
+[ 33%] Built target talker
+[ 66%] Built target listener
+[ 83%] [32mBuilding CXX object CMakeFiles/lidar_listener.dir/src/receive_lidar_function.cpp.o[0m

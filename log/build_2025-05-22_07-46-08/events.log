@@ -1,0 +1,246 @@
+[0.000000] (-) TimerEvent: {}
+[0.001022] (-) JobUnselected: {'identifier': 'car_launch'}
+[0.001451] (-) JobUnselected: {'identifier': 'cartographer'}
+[0.001538] (-) JobUnselected: {'identifier': 'cartographer_ros'}
+[0.001585] (-) JobUnselected: {'identifier': 'cartographer_ros_msgs'}
+[0.001630] (-) JobUnselected: {'identifier': 'cartographer_rviz'}
+[0.001669] (-) JobUnselected: {'identifier': 'ros2_opencv'}
+[0.001722] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.001766] (robocar_test_cpp) JobQueued: {'identifier': 'robocar_test_cpp', 'dependencies': OrderedDict()}
+[0.001810] (robocar_test_cpp) JobStarted: {'identifier': 'robocar_test_cpp'}
+[0.020594] (robocar_test_cpp) JobProgress: {'identifier': 'robocar_test_cpp', 'progress': 'cmake'}
+[0.022694] (robocar_test_cpp) JobProgress: {'identifier': 'robocar_test_cpp', 'progress': 'build'}
+[0.025045] (robocar_test_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/robocar_test_cpp', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/build/robocar_test_cpp', 'env': OrderedDict([('HOSTNAME', 'warnie'), ('GIT_ASKPASS', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/cartographer_rviz/lib:/root/ros2_ws/install/cartographer_ros/lib:/root/ros2_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-68549143-8077-4743-9875-84966345cd0e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/node'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-f285fd1d-9376-4a47-8352-1dbec715791d.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/ros2_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/root/ros2_ws/install/cartographer/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/ros2_ws/install/cartographer/bin:/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-f285fd1d-9376-4a47-8352-1dbec715791d.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', 'unix:0'), ('LANG', 'en_US.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-3ce2b43cc6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-f285fd1d-9376-4a47-8352-1dbec715791d.sock'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/car_launch:/root/ros2_ws/install/robocar_test_cpp:/root/ros2_ws/install/rplidar_ros:/root/ros2_ws/install/ros2_opencv:/root/ros2_ws/install/cartographer_rviz:/root/ros2_ws/install/cartographer_ros:/root/ros2_ws/install/cartographer_ros_msgs:/root/ros2_ws/install/Test_FirstPkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros2_ws/build/robocar_test_cpp'), ('PYTHONPATH', '/root/ros2_ws/install/ros2_opencv/lib/python3.10/site-packages:/root/ros2_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/car_launch:/root/ros2_ws/install/robocar_test_cpp:/root/ros2_ws/install/rplidar_ros:/root/ros2_ws/install/cartographer_rviz:/root/ros2_ws/install/cartographer_ros:/root/ros2_ws/install/cartographer_ros_msgs:/root/ros2_ws/install/cartographer:/root/ros2_ws/install/Test_FirstPkg:/root/ros2_ws/install/ros2_opencv:/opt/ros/humble')]), 'shell': False}
+[0.099445] (-) TimerEvent: {}
+[0.129338] (robocar_test_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_listener\x1b[0m\n'}
+[0.167253] (robocar_test_cpp) StdoutLine: {'line': b'[ 33%] Built target talker\n'}
+[0.168429] (robocar_test_cpp) StdoutLine: {'line': b'[ 66%] Built target listener\n'}
+[0.180725] (robocar_test_cpp) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/lidar_listener.dir/src/receive_lidar_function.cpp.o\x1b[0m\n'}
+[0.199557] (-) TimerEvent: {}
+[0.299947] (-) TimerEvent: {}
+[0.400354] (-) TimerEvent: {}
+[0.500761] (-) TimerEvent: {}
+[0.601150] (-) TimerEvent: {}
+[0.701511] (-) TimerEvent: {}
+[0.801894] (-) TimerEvent: {}
+[0.902287] (-) TimerEvent: {}
+[1.002698] (-) TimerEvent: {}
+[1.103080] (-) TimerEvent: {}
+[1.203489] (-) TimerEvent: {}
+[1.303906] (-) TimerEvent: {}
+[1.404435] (-) TimerEvent: {}
+[1.505334] (-) TimerEvent: {}
+[1.605736] (-) TimerEvent: {}
+[1.706236] (-) TimerEvent: {}
+[1.806787] (-) TimerEvent: {}
+[1.907343] (-) TimerEvent: {}
+[2.008093] (-) TimerEvent: {}
+[2.108789] (-) TimerEvent: {}
+[2.209267] (-) TimerEvent: {}
+[2.309613] (-) TimerEvent: {}
+[2.409972] (-) TimerEvent: {}
+[2.510337] (-) TimerEvent: {}
+[2.610702] (-) TimerEvent: {}
+[2.711073] (-) TimerEvent: {}
+[2.811486] (-) TimerEvent: {}
+[2.911878] (-) TimerEvent: {}
+[3.012235] (-) TimerEvent: {}
+[3.112615] (-) TimerEvent: {}
+[3.212994] (-) TimerEvent: {}
+[3.313415] (-) TimerEvent: {}
+[3.413897] (-) TimerEvent: {}
+[3.514405] (-) TimerEvent: {}
+[3.614891] (-) TimerEvent: {}
+[3.715331] (-) TimerEvent: {}
+[3.815718] (-) TimerEvent: {}
+[3.916163] (-) TimerEvent: {}
+[4.016610] (-) TimerEvent: {}
+[4.116999] (-) TimerEvent: {}
+[4.217426] (-) TimerEvent: {}
+[4.317835] (-) TimerEvent: {}
+[4.418223] (-) TimerEvent: {}
+[4.518621] (-) TimerEvent: {}
+[4.619006] (-) TimerEvent: {}
+[4.719412] (-) TimerEvent: {}
+[4.819781] (-) TimerEvent: {}
+[4.920208] (-) TimerEvent: {}
+[5.020866] (-) TimerEvent: {}
+[5.121585] (-) TimerEvent: {}
+[5.222556] (-) TimerEvent: {}
+[5.323029] (-) TimerEvent: {}
+[5.423595] (-) TimerEvent: {}
+[5.524044] (-) TimerEvent: {}
+[5.624541] (-) TimerEvent: {}
+[5.725210] (-) TimerEvent: {}
+[5.825686] (-) TimerEvent: {}
+[5.926328] (-) TimerEvent: {}
+[6.026696] (-) TimerEvent: {}
+[6.127100] (-) TimerEvent: {}
+[6.227761] (-) TimerEvent: {}
+[6.328456] (-) TimerEvent: {}
+[6.428977] (-) TimerEvent: {}
+[6.529415] (-) TimerEvent: {}
+[6.629778] (-) TimerEvent: {}
+[6.730174] (-) TimerEvent: {}
+[6.830547] (-) TimerEvent: {}
+[6.930924] (-) TimerEvent: {}
+[7.031344] (-) TimerEvent: {}
+[7.131730] (-) TimerEvent: {}
+[7.232125] (-) TimerEvent: {}
+[7.332534] (-) TimerEvent: {}
+[7.432962] (-) TimerEvent: {}
+[7.533356] (-) TimerEvent: {}
+[7.633729] (-) TimerEvent: {}
+[7.734102] (-) TimerEvent: {}
+[7.834494] (-) TimerEvent: {}
+[7.934876] (-) TimerEvent: {}
+[8.035217] (-) TimerEvent: {}
+[8.135588] (-) TimerEvent: {}
+[8.235974] (-) TimerEvent: {}
+[8.336385] (-) TimerEvent: {}
+[8.436769] (-) TimerEvent: {}
+[8.537171] (-) TimerEvent: {}
+[8.637547] (-) TimerEvent: {}
+[8.737927] (-) TimerEvent: {}
+[8.838344] (-) TimerEvent: {}
+[8.938788] (-) TimerEvent: {}
+[9.039225] (-) TimerEvent: {}
+[9.139631] (-) TimerEvent: {}
+[9.240030] (-) TimerEvent: {}
+[9.340430] (-) TimerEvent: {}
+[9.440837] (-) TimerEvent: {}
+[9.541358] (-) TimerEvent: {}
+[9.641733] (-) TimerEvent: {}
+[9.742106] (-) TimerEvent: {}
+[9.842519] (-) TimerEvent: {}
+[9.942918] (-) TimerEvent: {}
+[10.043427] (-) TimerEvent: {}
+[10.143849] (-) TimerEvent: {}
+[10.244277] (-) TimerEvent: {}
+[10.344728] (-) TimerEvent: {}
+[10.445106] (-) TimerEvent: {}
+[10.545586] (-) TimerEvent: {}
+[10.645990] (-) TimerEvent: {}
+[10.746461] (-) TimerEvent: {}
+[10.846874] (-) TimerEvent: {}
+[10.947298] (-) TimerEvent: {}
+[11.047789] (-) TimerEvent: {}
+[11.148209] (-) TimerEvent: {}
+[11.248566] (-) TimerEvent: {}
+[11.348992] (-) TimerEvent: {}
+[11.449377] (-) TimerEvent: {}
+[11.549775] (-) TimerEvent: {}
+[11.650174] (-) TimerEvent: {}
+[11.750587] (-) TimerEvent: {}
+[11.850956] (-) TimerEvent: {}
+[11.951362] (-) TimerEvent: {}
+[12.051781] (-) TimerEvent: {}
+[12.152198] (-) TimerEvent: {}
+[12.252631] (-) TimerEvent: {}
+[12.353074] (-) TimerEvent: {}
+[12.453944] (-) TimerEvent: {}
+[12.556127] (-) TimerEvent: {}
+[12.658327] (-) TimerEvent: {}
+[12.758703] (-) TimerEvent: {}
+[12.859070] (-) TimerEvent: {}
+[12.959468] (-) TimerEvent: {}
+[13.059828] (-) TimerEvent: {}
+[13.160200] (-) TimerEvent: {}
+[13.260614] (-) TimerEvent: {}
+[13.360994] (-) TimerEvent: {}
+[13.461456] (-) TimerEvent: {}
+[13.561852] (-) TimerEvent: {}
+[13.662218] (-) TimerEvent: {}
+[13.762568] (-) TimerEvent: {}
+[13.863033] (-) TimerEvent: {}
+[13.963437] (-) TimerEvent: {}
+[14.063906] (-) TimerEvent: {}
+[14.164370] (-) TimerEvent: {}
+[14.264737] (-) TimerEvent: {}
+[14.365104] (-) TimerEvent: {}
+[14.465486] (-) TimerEvent: {}
+[14.565859] (-) TimerEvent: {}
+[14.666221] (-) TimerEvent: {}
+[14.766586] (-) TimerEvent: {}
+[14.866988] (-) TimerEvent: {}
+[14.967386] (-) TimerEvent: {}
+[15.067757] (-) TimerEvent: {}
+[15.168164] (-) TimerEvent: {}
+[15.268531] (-) TimerEvent: {}
+[15.368893] (-) TimerEvent: {}
+[15.469284] (-) TimerEvent: {}
+[15.569664] (-) TimerEvent: {}
+[15.670172] (-) TimerEvent: {}
+[15.770662] (-) TimerEvent: {}
+[15.871154] (-) TimerEvent: {}
+[15.971618] (-) TimerEvent: {}
+[16.072081] (-) TimerEvent: {}
+[16.172658] (-) TimerEvent: {}
+[16.273122] (-) TimerEvent: {}
+[16.373682] (-) TimerEvent: {}
+[16.474169] (-) TimerEvent: {}
+[16.574710] (-) TimerEvent: {}
+[16.675185] (-) TimerEvent: {}
+[16.775653] (-) TimerEvent: {}
+[16.876195] (-) TimerEvent: {}
+[16.976678] (-) TimerEvent: {}
+[17.077069] (-) TimerEvent: {}
+[17.177443] (-) TimerEvent: {}
+[17.277817] (-) TimerEvent: {}
+[17.378226] (-) TimerEvent: {}
+[17.478695] (-) TimerEvent: {}
+[17.579189] (-) TimerEvent: {}
+[17.679584] (-) TimerEvent: {}
+[17.779961] (-) TimerEvent: {}
+[17.880409] (-) TimerEvent: {}
+[17.980851] (-) TimerEvent: {}
+[18.081278] (-) TimerEvent: {}
+[18.181726] (-) TimerEvent: {}
+[18.282187] (-) TimerEvent: {}
+[18.382602] (-) TimerEvent: {}
+[18.483009] (-) TimerEvent: {}
+[18.583433] (-) TimerEvent: {}
+[18.683851] (-) TimerEvent: {}
+[18.784281] (-) TimerEvent: {}
+[18.884713] (-) TimerEvent: {}
+[18.985128] (-) TimerEvent: {}
+[19.085557] (-) TimerEvent: {}
+[19.185971] (-) TimerEvent: {}
+[19.235062] (robocar_test_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lidar_listener\x1b[0m\n'}
+[19.286098] (-) TimerEvent: {}
+[19.386561] (-) TimerEvent: {}
+[19.487033] (-) TimerEvent: {}
+[19.587507] (-) TimerEvent: {}
+[19.687970] (-) TimerEvent: {}
+[19.788466] (-) TimerEvent: {}
+[19.889498] (-) TimerEvent: {}
+[19.990121] (-) TimerEvent: {}
+[20.090609] (-) TimerEvent: {}
+[20.167904] (robocar_test_cpp) StdoutLine: {'line': b'[100%] Built target lidar_listener\n'}
+[20.189783] (robocar_test_cpp) CommandEnded: {'returncode': 0}
+[20.190864] (-) TimerEvent: {}
+[20.191829] (robocar_test_cpp) JobProgress: {'identifier': 'robocar_test_cpp', 'progress': 'install'}
+[20.210450] (robocar_test_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/robocar_test_cpp'], 'cwd': '/root/ros2_ws/build/robocar_test_cpp', 'env': OrderedDict([('HOSTNAME', 'warnie'), ('GIT_ASKPASS', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/cartographer_rviz/lib:/root/ros2_ws/install/cartographer_ros/lib:/root/ros2_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-68549143-8077-4743-9875-84966345cd0e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/node'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-f285fd1d-9376-4a47-8352-1dbec715791d.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/ros2_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/root/ros2_ws/install/cartographer/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/ros2_ws/install/cartographer/bin:/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-f285fd1d-9376-4a47-8352-1dbec715791d.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', 'unix:0'), ('LANG', 'en_US.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-3ce2b43cc6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-f285fd1d-9376-4a47-8352-1dbec715791d.sock'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/car_launch:/root/ros2_ws/install/robocar_test_cpp:/root/ros2_ws/install/rplidar_ros:/root/ros2_ws/install/ros2_opencv:/root/ros2_ws/install/cartographer_rviz:/root/ros2_ws/install/cartographer_ros:/root/ros2_ws/install/cartographer_ros_msgs:/root/ros2_ws/install/Test_FirstPkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros2_ws/build/robocar_test_cpp'), ('PYTHONPATH', '/root/ros2_ws/install/ros2_opencv/lib/python3.10/site-packages:/root/ros2_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/car_launch:/root/ros2_ws/install/robocar_test_cpp:/root/ros2_ws/install/rplidar_ros:/root/ros2_ws/install/cartographer_rviz:/root/ros2_ws/install/cartographer_ros:/root/ros2_ws/install/cartographer_ros_msgs:/root/ros2_ws/install/cartographer:/root/ros2_ws/install/Test_FirstPkg:/root/ros2_ws/install/ros2_opencv:/opt/ros/humble')]), 'shell': False}
+[20.227961] (robocar_test_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.228444] (robocar_test_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/lib/robocar_test_cpp/talker\n'}
+[20.228999] (robocar_test_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/lib/robocar_test_cpp/listener\n'}
+[20.229683] (robocar_test_cpp) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/robocar_test_cpp/lib/robocar_test_cpp/lidar_listener\n'}
+[20.236855] (robocar_test_cpp) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/robocar_test_cpp/lib/robocar_test_cpp/lidar_listener" to ""\n'}
+[20.237251] (robocar_test_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/ament_index/resource_index/package_run_dependencies/robocar_test_cpp\n'}
+[20.237541] (robocar_test_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/ament_index/resource_index/parent_prefix_path/robocar_test_cpp\n'}
+[20.237944] (robocar_test_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/environment/ament_prefix_path.sh\n'}
+[20.238107] (robocar_test_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/environment/ament_prefix_path.dsv\n'}
+[20.238359] (robocar_test_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/environment/path.sh\n'}
+[20.238669] (robocar_test_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/environment/path.dsv\n'}
+[20.238913] (robocar_test_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/local_setup.bash\n'}
+[20.239179] (robocar_test_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/local_setup.sh\n'}
+[20.239407] (robocar_test_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/local_setup.zsh\n'}
+[20.239559] (robocar_test_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/local_setup.dsv\n'}
+[20.239717] (robocar_test_cpp) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/package.dsv\n'}
+[20.239882] (robocar_test_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/ament_index/resource_index/packages/robocar_test_cpp\n'}
+[20.240089] (robocar_test_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/cmake/robocar_test_cppConfig.cmake\n'}
+[20.240296] (robocar_test_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/cmake/robocar_test_cppConfig-version.cmake\n'}
+[20.240455] (robocar_test_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/package.xml\n'}
+[20.243040] (robocar_test_cpp) CommandEnded: {'returncode': 0}
+[20.284220] (robocar_test_cpp) JobEnded: {'identifier': 'robocar_test_cpp', 'rc': 0}
+[20.285480] (-) EventReactorShutdown: {}

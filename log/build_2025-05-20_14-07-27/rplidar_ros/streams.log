@@ -1,0 +1,58 @@
+[1.820s] Invoking command in '/root/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_opencv:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/rplidar_ros -- -j8 -l8
+[2.339s] [  5%] Built target rplidar_client
+[2.361s] [ 52%] Built target rplidar_node
+[2.522s] [100%] Built target rplidar_composition
+[2.662s] Invoked command in '/root/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_opencv:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/rplidar_ros -- -j8 -l8
+[2.669s] Invoking command in '/root/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_opencv:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/rplidar_ros
+[2.715s] -- Install configuration: ""
+[2.718s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch
+[2.720s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[2.721s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/__pycache__
+[2.723s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/__pycache__/rplidar_c1_launch.cpython-310.pyc
+[2.724s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/__pycache__/view_rplidar_c1_launch.cpython-310.pyc
+[2.724s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[2.725s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[2.725s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[2.726s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[2.726s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[2.733s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[2.734s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[2.734s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[2.735s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[2.735s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[2.736s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[2.736s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[2.737s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py
+[2.737s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[2.737s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[2.737s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[2.738s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[2.743s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[2.745s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[2.746s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[2.747s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[2.747s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[2.747s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[2.748s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz
+[2.748s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[2.762s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[2.762s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[2.763s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[2.763s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[2.763s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[2.764s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[2.764s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[2.765s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[2.765s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[2.765s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[2.765s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[2.766s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[2.766s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[2.768s] -- Installing: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[2.784s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[2.785s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.785s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.786s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[2.786s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[2.791s] -- Up-to-date: /root/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[2.792s] Invoked command in '/root/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_opencv:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/rplidar_ros

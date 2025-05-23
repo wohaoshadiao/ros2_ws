@@ -1,0 +1,22 @@
+[0.127s] Invoking command in '/root/ros2_ws/build/car_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_opencv:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/car_launch -- -j8 -l8
+[1.920s] Invoked command in '/root/ros2_ws/build/car_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_opencv:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/car_launch -- -j8 -l8
+[1.971s] Invoking command in '/root/ros2_ws/build/car_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_opencv:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/car_launch
+[2.003s] -- Install configuration: ""
+[2.004s] -- Up-to-date: /root/ros2_ws/install/car_launch/share/car_launch//launch
+[2.004s] -- Up-to-date: /root/ros2_ws/install/car_launch/share/car_launch//launch/car_launch.launch.py
+[2.004s] -- Up-to-date: /root/ros2_ws/install/car_launch/share/ament_index/resource_index/package_run_dependencies/car_launch
+[2.005s] -- Up-to-date: /root/ros2_ws/install/car_launch/share/ament_index/resource_index/parent_prefix_path/car_launch
+[2.005s] -- Up-to-date: /root/ros2_ws/install/car_launch/share/car_launch/environment/ament_prefix_path.sh
+[2.005s] -- Up-to-date: /root/ros2_ws/install/car_launch/share/car_launch/environment/ament_prefix_path.dsv
+[2.006s] -- Up-to-date: /root/ros2_ws/install/car_launch/share/car_launch/environment/path.sh
+[2.006s] -- Up-to-date: /root/ros2_ws/install/car_launch/share/car_launch/environment/path.dsv
+[2.006s] -- Up-to-date: /root/ros2_ws/install/car_launch/share/car_launch/local_setup.bash
+[2.006s] -- Up-to-date: /root/ros2_ws/install/car_launch/share/car_launch/local_setup.sh
+[2.007s] -- Up-to-date: /root/ros2_ws/install/car_launch/share/car_launch/local_setup.zsh
+[2.007s] -- Up-to-date: /root/ros2_ws/install/car_launch/share/car_launch/local_setup.dsv
+[2.010s] -- Installing: /root/ros2_ws/install/car_launch/share/car_launch/package.dsv
+[2.017s] -- Up-to-date: /root/ros2_ws/install/car_launch/share/ament_index/resource_index/packages/car_launch
+[2.018s] -- Up-to-date: /root/ros2_ws/install/car_launch/share/car_launch/cmake/car_launchConfig.cmake
+[2.018s] -- Up-to-date: /root/ros2_ws/install/car_launch/share/car_launch/cmake/car_launchConfig-version.cmake
+[2.019s] -- Up-to-date: /root/ros2_ws/install/car_launch/share/car_launch/package.xml
+[2.019s] Invoked command in '/root/ros2_ws/build/car_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_opencv:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/car_launch

@@ -1,0 +1,38 @@
+[0.037s] Invoking command in '/root/ros2_ws/build/robocar_test_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_opencv:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/robocar_test_cpp -- -j8 -l8
+[0.114s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.595s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.750s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.763s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.785s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.820s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.869s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.993s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.000s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.391s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.576s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.698s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.928s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.929s] -- Configured cppcheck include dirs: 
+[1.929s] -- Configured cppcheck exclude dirs and/or files: 
+[1.932s] -- Added test 'lint_cmake' to check CMake code style
+[1.935s] -- Added test 'uncrustify' to check C / C++ code style
+[1.935s] -- Configured uncrustify additional arguments: 
+[1.937s] -- Added test 'xmllint' to check XML markup files
+[1.941s] -- Configuring done
+[1.992s] -- Generating done
+[2.012s] -- Build files have been written to: /root/ros2_ws/build/robocar_test_cpp
+[2.078s] [35m[1mConsolidate compiler generated dependencies of target lidar_listener[0m
+[2.078s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[2.079s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[2.124s] [ 66%] Built target talker
+[2.125s] [ 66%] Built target listener
+[2.137s] [ 83%] [32mBuilding CXX object CMakeFiles/lidar_listener.dir/src/receive_lidar_function.cpp.o[0m
+[9.831s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:[m[K In constructor ‘[01m[KLidarListener::LidarListener()[m[K’:
+[9.831s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:11:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[9.832s]    11 |         [01;31m[Ksubscription_[m[K = this->create_subscription<sensor_msgs::msg::LaserScan>(
+[9.832s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[9.832s]       |         [32m[Krmw_subscription_t[m[K
+[15.072s] gmake[2]: *** [CMakeFiles/lidar_listener.dir/build.make:76: CMakeFiles/lidar_listener.dir/src/receive_lidar_function.cpp.o] Error 1
+[15.073s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/lidar_listener.dir/all] Error 2
+[15.073s] gmake: *** [Makefile:146: all] Error 2
+[15.077s] Invoked command in '/root/ros2_ws/build/robocar_test_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_opencv:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/robocar_test_cpp -- -j8 -l8

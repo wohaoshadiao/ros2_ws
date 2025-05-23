@@ -1,0 +1,37 @@
+[4.133s] Invoking command in '/root/ros2_ws/src/ros2_opencv': PYTHONPATH=/root/ros2_ws/build/ros2_opencv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/ros2_opencv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_opencv build --build-base /root/ros2_ws/build/ros2_opencv/build install --record /root/ros2_ws/build/ros2_opencv/install.log --single-version-externally-managed install_data
+[5.190s] running egg_info
+[5.190s] creating ../../build/ros2_opencv/ros2_opencv.egg-info
+[5.191s] writing ../../build/ros2_opencv/ros2_opencv.egg-info/PKG-INFO
+[5.192s] writing dependency_links to ../../build/ros2_opencv/ros2_opencv.egg-info/dependency_links.txt
+[5.194s] writing entry points to ../../build/ros2_opencv/ros2_opencv.egg-info/entry_points.txt
+[5.195s] writing requirements to ../../build/ros2_opencv/ros2_opencv.egg-info/requires.txt
+[5.195s] writing top-level names to ../../build/ros2_opencv/ros2_opencv.egg-info/top_level.txt
+[5.195s] writing manifest file '../../build/ros2_opencv/ros2_opencv.egg-info/SOURCES.txt'
+[5.203s] reading manifest file '../../build/ros2_opencv/ros2_opencv.egg-info/SOURCES.txt'
+[5.205s] writing manifest file '../../build/ros2_opencv/ros2_opencv.egg-info/SOURCES.txt'
+[5.205s] running build
+[5.206s] running build_py
+[5.207s] creating /root/ros2_ws/build/ros2_opencv/build
+[5.207s] creating /root/ros2_ws/build/ros2_opencv/build/lib
+[5.207s] creating /root/ros2_ws/build/ros2_opencv/build/lib/ros2_opencv
+[5.208s] copying ros2_opencv/node_object.py -> /root/ros2_ws/build/ros2_opencv/build/lib/ros2_opencv
+[5.213s] copying ros2_opencv/__init__.py -> /root/ros2_ws/build/ros2_opencv/build/lib/ros2_opencv
+[5.213s] running install
+[5.216s] running install_lib
+[5.225s] creating /root/ros2_ws/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv
+[5.225s] copying /root/ros2_ws/build/ros2_opencv/build/lib/ros2_opencv/node_object.py -> /root/ros2_ws/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv
+[5.227s] copying /root/ros2_ws/build/ros2_opencv/build/lib/ros2_opencv/__init__.py -> /root/ros2_ws/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv
+[5.228s] Sorry: IndentationError: unexpected indent (node_object.py, line 24)
+[5.228s] byte-compiling /root/ros2_ws/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv/node_object.py to node_object.cpython-310.pyc
+[5.228s] byte-compiling /root/ros2_ws/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv/__init__.py to __init__.cpython-310.pyc
+[5.232s] running install_data
+[5.233s] creating /root/ros2_ws/install/ros2_opencv/share/ament_index
+[5.233s] creating /root/ros2_ws/install/ros2_opencv/share/ament_index/resource_index
+[5.233s] creating /root/ros2_ws/install/ros2_opencv/share/ament_index/resource_index/packages
+[5.234s] copying resource/ros2_opencv -> /root/ros2_ws/install/ros2_opencv/share/ament_index/resource_index/packages
+[5.236s] copying package.xml -> /root/ros2_ws/install/ros2_opencv/share/ros2_opencv
+[5.238s] running install_egg_info
+[5.245s] Copying ../../build/ros2_opencv/ros2_opencv.egg-info to /root/ros2_ws/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv-0.0.0-py3.10.egg-info
+[5.250s] running install_scripts
+[5.382s] writing list of installed files to '/root/ros2_ws/build/ros2_opencv/install.log'
+[5.505s] Invoked command in '/root/ros2_ws/src/ros2_opencv' returned '0': PYTHONPATH=/root/ros2_ws/build/ros2_opencv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/ros2_opencv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_opencv build --build-base /root/ros2_ws/build/ros2_opencv/build install --record /root/ros2_ws/build/ros2_opencv/install.log --single-version-externally-managed install_data
