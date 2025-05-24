@@ -1,0 +1,47 @@
+# 这个version指的是compose文档的官方版本，不同版本号所含的功能不同
+# 具体见 https://docs.docker.com/compose/compose-file/compose-versioning/
+# 编写本教程时的最新版本为3.8
+version: '3.8'
+# 项目名称
+name: development
+# 所有的容器的定义都要在services这个顶级元素下定义
+services:
+  # 服务名称，可以与项目名称保持一致
+  ros2humble:
+    # 设置为true，则容器内PID为1的进程就会是docker提供的一个init程序
+    # 这样可以使容器能够回收内部的僵尸进程，避免占用资源
+    init: true
+    # 容器名称，可以与项目名称保持一致
+    container_name: development-container-ros2humble
+    # 实现docker run命令中-i参数的效果
+    stdin_open: true
+    # 网络模式设置为host，就可以与主机使用同一个网络，而不是使用docker虚拟网卡的桥接网络，方便设置代理和ssh连接
+    network_mode: "host"
+    # 设置为true，则容器内的root用户与主机的root用户具有相同的权限
+    privileged: true
+    image: ubuntu:22.04_arm64_ros2humble
+    # 设置容器启动后自动执行的命令，可以为空，为空则执行Dockerfile中指定的命令
+    # 容器内PID为1的进程退出后，容器就会关闭，为了防止容器自动关闭，就需要让容器一直运行程序
+    # tail -f /dev/null这个命令可以防止容器启动后自动退出，但因为前面设置了stdin_open，所以可以为空
+    # command: tail -f /dev/null
+    # command: bash -c "service ssh start && tail -f /dev/null"
+    # 设置要挂载的目录，可以理解为共享文件夹
+    volumes:
+      # 显示GUI所必须的
+      - "/tmp/.X11-unix:/tmp/.X11-unix:rw"
+      # 使容器可以读取到外接设备
+      # 比如主机上插了一个USB相机，挂载/dev后，容器内就也可以使用该相机了
+      - "/dev:/dev:rw"
+      # 将docker-compose.yaml所在目录下的SHARE文件夹（如果不存在则会自动创建一个）共享到容器中
+      # 目的是方便在容器和主机间共享数据
+      - "./SHARE:/root/SHARE:rw"
+    # 设置容器的默认工作目录
+    working_dir: /root
+    # 设置环境变量
+    environment:
+      # 显示GUI所必须的
+      - DISPLAY=$DISPLAY
+      # 显示GUI所必须的
+      - QT_X11_NO_MITSHM=1
+      # 设置语言环境
+      - LC_ALL=C.UTF-8

@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.000495] (-) JobUnselected: {'identifier': 'car_launch'}
+[0.000581] (-) JobUnselected: {'identifier': 'cartographer'}
+[0.000734] (-) JobUnselected: {'identifier': 'cartographer_ros'}
+[0.000822] (-) JobUnselected: {'identifier': 'cartographer_ros_msgs'}
+[0.000885] (-) JobUnselected: {'identifier': 'cartographer_rviz'}
+[0.001108] (-) JobUnselected: {'identifier': 'robocar_test_cpp'}
+[0.001404] (-) JobUnselected: {'identifier': 'ros2_opencv'}
+[0.001469] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.001528] (-) EventReactorShutdown: {}

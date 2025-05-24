@@ -1,0 +1,6 @@
+[0.033s] Invoking command in '/home/warnie/Documents/VSCODE/ros2_ws/build/robocar_test_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/warnie/Documents/VSCODE/ros2_ws/install/ros2_opencv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/warnie/Documents/VSCODE/ros2_ws/build/robocar_test_cpp -- -j8 -l8
+[0.046s] [0mCMake Error: The current CMakeCache.txt directory /home/warnie/Documents/VSCODE/ros2_ws/build/robocar_test_cpp/CMakeCache.txt is different than the directory /root/ros2_ws/build/robocar_test_cpp where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.068s] [0mCMake Error: The source directory "/root/ros2_ws/src/robocar_test_cpp" does not exist.
+[0.068s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.069s] gmake: *** [Makefile:349: cmake_check_build_system] Error 1
+[0.073s] Invoked command in '/home/warnie/Documents/VSCODE/ros2_ws/build/robocar_test_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/warnie/Documents/VSCODE/ros2_ws/install/ros2_opencv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/warnie/Documents/VSCODE/ros2_ws/build/robocar_test_cpp -- -j8 -l8

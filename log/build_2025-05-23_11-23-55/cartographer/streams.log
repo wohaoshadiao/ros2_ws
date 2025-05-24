@@ -1,0 +1,5 @@
+[0.100s] Invoking command in '/home/warnie/Documents/VSCODE/ros2_ws/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/warnie/Documents/VSCODE/ros2_ws/install/ros2_opencv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/warnie/Documents/VSCODE/ros2_ws/build/cartographer -- -j8 -l8
+[0.767s] [0mCMake Error: The current CMakeCache.txt directory /home/warnie/Documents/VSCODE/ros2_ws/build/cartographer/CMakeCache.txt is different than the directory /root/ros2_ws/build/cartographer where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.768s] [0mCMake Error: The source directory "/root/ros2_ws/src/cartographer" does not exist.
+[0.769s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.770s] gmake: *** [Makefile:8307: cmake_check_build_system] Error 1
