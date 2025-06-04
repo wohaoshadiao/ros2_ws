@@ -1,0 +1,165 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.17.5/CMakeASMCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/CMakeFindCodeBlocks.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/ProcessorCount.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/Internal/CMakeCheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/CMakeASMInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU-ASM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/software/Clion/TOOL/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "C:/Users/starc/Desktop/Motor/cmake-build-debug",
+		"source" : "C:/Users/starc/Desktop/Motor"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
