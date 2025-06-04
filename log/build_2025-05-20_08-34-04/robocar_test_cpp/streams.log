@@ -1,0 +1,29 @@
+[0.085s] Invoking command in '/root/ros2_ws/build/robocar_test_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_opencv:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/robocar_test_cpp -- -j8 -l8
+[1.357s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[1.358s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[1.358s] [ 50%] Built target listener
+[1.358s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[14.073s] [100%] [32m[1mLinking CXX executable talker[0m
+[14.509s] [100%] Built target talker
+[14.536s] Invoked command in '/root/ros2_ws/build/robocar_test_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_opencv:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/robocar_test_cpp -- -j8 -l8
+[14.540s] Invoking command in '/root/ros2_ws/build/robocar_test_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_opencv:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/robocar_test_cpp
+[14.553s] -- Install configuration: ""
+[14.554s] -- Installing: /root/ros2_ws/install/robocar_test_cpp/lib/robocar_test_cpp/talker
+[14.557s] -- Set runtime path of "/root/ros2_ws/install/robocar_test_cpp/lib/robocar_test_cpp/talker" to ""
+[14.557s] -- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/lib/robocar_test_cpp/listener
+[14.558s] -- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/ament_index/resource_index/package_run_dependencies/robocar_test_cpp
+[14.558s] -- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/ament_index/resource_index/parent_prefix_path/robocar_test_cpp
+[14.559s] -- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/environment/ament_prefix_path.sh
+[14.559s] -- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/environment/ament_prefix_path.dsv
+[14.559s] -- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/environment/path.sh
+[14.559s] -- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/environment/path.dsv
+[14.560s] -- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/local_setup.bash
+[14.560s] -- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/local_setup.sh
+[14.560s] -- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/local_setup.zsh
+[14.561s] -- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/local_setup.dsv
+[14.561s] -- Installing: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/package.dsv
+[14.561s] -- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/ament_index/resource_index/packages/robocar_test_cpp
+[14.561s] -- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/cmake/robocar_test_cppConfig.cmake
+[14.561s] -- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/cmake/robocar_test_cppConfig-version.cmake
+[14.562s] -- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/package.xml
+[14.566s] Invoked command in '/root/ros2_ws/build/robocar_test_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_opencv:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/robocar_test_cpp

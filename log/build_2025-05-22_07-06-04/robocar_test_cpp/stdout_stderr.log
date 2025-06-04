@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target lidar_listener[0m
+[ 33%] Built target talker
+[ 66%] Built target listener
+[ 83%] [32mBuilding CXX object CMakeFiles/lidar_listener.dir/src/receive_lidar_function.cpp.o[0m
+[01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:[m[K In constructor ‘[01m[KLidarListener::LidarListener()[m[K’:
+[01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:11:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   11 |         [01;31m[Ksubscription_[m[K = this->create_subscription<sensor_msgs::msg::LaserScan>(
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[Krmw_subscription_t[m[K
+gmake[2]: *** [CMakeFiles/lidar_listener.dir/build.make:76: CMakeFiles/lidar_listener.dir/src/receive_lidar_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/lidar_listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

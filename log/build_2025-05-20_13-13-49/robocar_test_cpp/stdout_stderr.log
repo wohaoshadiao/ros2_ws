@@ -1,0 +1,49 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_ws/build/robocar_test_cpp
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 33%] Built target talker
+[ 50%] [32mBuilding CXX object CMakeFiles/lidar_listener.dir/src/receive_lidar_function.cpp.o[0m
+[ 83%] Built target listener
+[100%] [32m[1mLinking CXX executable lidar_listener[0m
+[100%] Built target lidar_listener
+-- Install configuration: ""
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/lib/robocar_test_cpp/talker
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/lib/robocar_test_cpp/listener
+-- Installing: /root/ros2_ws/install/robocar_test_cpp/lib/robocar_test_cpp/lidar_listener
+-- Set runtime path of "/root/ros2_ws/install/robocar_test_cpp/lib/robocar_test_cpp/lidar_listener" to ""
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/ament_index/resource_index/package_run_dependencies/robocar_test_cpp
+-- Installing: /root/ros2_ws/install/robocar_test_cpp/share/ament_index/resource_index/parent_prefix_path/robocar_test_cpp
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/environment/path.sh
+-- Installing: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/environment/path.dsv
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/local_setup.bash
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/local_setup.sh
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/local_setup.zsh
+-- Installing: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/local_setup.dsv
+-- Installing: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/package.dsv
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/ament_index/resource_index/packages/robocar_test_cpp
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/cmake/robocar_test_cppConfig.cmake
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/cmake/robocar_test_cppConfig-version.cmake
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/package.xml

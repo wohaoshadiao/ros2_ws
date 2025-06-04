@@ -1,0 +1,4 @@
+source;share/robocar_test_cpp/local_setup.bash
+source;share/robocar_test_cpp/local_setup.dsv
+source;share/robocar_test_cpp/local_setup.sh
+source;share/robocar_test_cpp/local_setup.zsh

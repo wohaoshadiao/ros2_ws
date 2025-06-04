@@ -1,0 +1,261 @@
+[0.146s] Invoking command in '/root/ros2_ws/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_opencv:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/cartographer -- -j8 -l8
+[1.887s] [  0%] [34m[1mBuilding documentation.[0m
+[1.890s] [  1%] Built target gtest
+[1.890s] [  1%] Built target cartographer_detect_changes
+[1.891s] [  2%] Built target gmock
+[1.891s] [  2%] Built target gmock_main
+[2.250s] [ 55%] Built target cartographer
+[2.499s] [ 56%] Built target cartographer_pbstream
+[2.519s] [ 57%] Built target cartographer_autogenerate_ground_truth
+[2.531s] [ 58%] Built target cartographer_test_library
+[2.540s] [ 58%] Built target cartographer_print_configuration
+[2.608s] [ 58%] Built target cartographer_compute_relations_metrics
+[2.838s] [ 58%] Built target cartographer.common.lua_parameter_dictionary_test
+[2.861s] [ 59%] Built target cartographer.common.math_test
+[2.863s] [ 58%] Built target cartographer.common.internal.blocking_queue_test
+[2.891s] [ 59%] Built target cartographer.common.task_test
+[2.902s] [ 59%] Built target cartographer.common.configuration_files_test
+[2.987s] [ 60%] Built target cartographer.common.internal.rate_timer_test
+[3.015s] [ 61%] Built target cartographer.common.fixed_ratio_sampler_test
+[3.085s] [ 61%] Built target cartographer.io.fake_file_writer_test
+[3.154s] [ 62%] Built target cartographer.common.thread_pool_test
+[3.168s] [ 63%] Built target cartographer.io.internal.in_memory_proto_stream_test
+[3.225s] [ 63%] Built target cartographer.io.points_processor_pipeline_builder_test
+[3.290s] [ 63%] Built target cartographer.io.proto_stream_deserializer_test
+[3.314s] [ 64%] Built target cartographer.io.probability_grid_points_processor_test
+[3.314s] [ 64%] Built target cartographer.io.serialization_format_migration_test
+[3.382s] [ 65%] Built target cartographer.io.proto_stream_test
+[3.460s] [ 66%] Built target cartographer.mapping.2d.range_data_inserter_2d_test
+[3.504s] [ 66%] Built target cartographer.mapping.2d.probability_grid_test
+[3.518s] [ 67%] Built target cartographer.mapping.2d.xy_index_test
+[3.617s] [ 68%] Built target cartographer.mapping.2d.map_limits_test
+[3.928s] [ 68%] Built target cartographer.mapping.3d.hybrid_grid_test
+[3.947s] [ 68%] Built target cartographer.mapping.2d.submap_2d_test
+[4.018s] [ 69%] Built target cartographer.mapping.3d.range_data_inserter_3d_test
+[4.018s] [ 69%] Built target cartographer.mapping.imu_tracker_test
+[4.019s] [ 69%] Built target cartographer.mapping.3d.submap_3d_test
+[4.019s] [ 69%] Built target cartographer.mapping.internal.2d.overlapping_submaps_trimmer_2d_test
+[4.019s] [ 70%] Built target cartographer.mapping.id_test
+[4.022s] [ 71%] Built target cartographer.mapping.internal.2d.normal_estimation_2d_test
+[4.116s] [ 72%] Built target cartographer.mapping.internal.2d.pose_graph_2d_test
+[4.152s] [ 72%] Built target cartographer.mapping.internal.2d.ray_to_pixel_mask_test
+[4.188s] [ 73%] Built target cartographer.mapping.internal.2d.scan_matching.ceres_scan_matcher_2d_test
+[4.229s] [ 74%] Built target cartographer.mapping.internal.2d.scan_matching.fast_correlative_scan_matcher_2d_test
+[4.240s] [ 74%] Built target cartographer.mapping.internal.2d.scan_matching.correlative_scan_matcher_test
+[4.293s] [ 75%] Built target cartographer.mapping.internal.2d.scan_matching.interpolated_tsdf_2d_test
+[4.355s] [ 75%] Built target cartographer.mapping.internal.2d.scan_matching.occupied_space_cost_function_2d_test
+[4.364s] [ 76%] Built target cartographer.mapping.internal.2d.scan_matching.real_time_correlative_scan_matcher_2d_test
+[4.543s] [ 76%] Built target cartographer.mapping.internal.3d.rotation_parameterization_test
+[4.566s] [ 76%] Built target cartographer.mapping.internal.3d.local_trajectory_builder_3d_test
+[4.597s] [ 77%] Built target cartographer.mapping.internal.2d.tsdf_range_data_inserter_2d_test
+[4.619s] [ 78%] Built target cartographer.mapping.internal.2d.tsd_value_converter_test
+[4.630s] [ 78%] Built target cartographer.mapping.internal.2d.scan_matching.tsdf_match_cost_function_2d_test
+[4.666s] [ 78%] Built target cartographer.mapping.internal.2d.tsdf_2d_test
+[4.716s] [ 79%] Built target cartographer.mapping.internal.3d.pose_graph_3d_test
+[4.870s] [ 79%] Built target cartographer.mapping.internal.3d.scan_matching.interpolated_grid_test
+[4.921s] [ 79%] Built target cartographer.mapping.internal.3d.scan_matching.real_time_correlative_scan_matcher_3d_test
+[4.965s] [ 80%] Built target cartographer.mapping.internal.3d.scan_matching.intensity_cost_function_3d_test
+[4.979s] [ 80%] Built target cartographer.mapping.internal.3d.scan_matching.fast_correlative_scan_matcher_3d_test
+[4.993s] [ 81%] Built target cartographer.mapping.internal.3d.scan_matching.rotation_delta_cost_functor_3d_test
+[4.994s] [ 82%] Built target cartographer.mapping.internal.3d.scan_matching.precomputation_grid_3d_test
+[5.013s] [ 83%] Built target cartographer.mapping.internal.3d.scan_matching.ceres_scan_matcher_3d_test
+[5.097s] [ 83%] Built target cartographer.mapping.internal.3d.scan_matching.rotational_scan_matcher_test
+[5.155s] [ 84%] Built target cartographer.mapping.internal.connected_components_test
+[5.170s] [ 84%] Built target cartographer.mapping.internal.constraints.constraint_builder_2d_test
+[5.223s] [ 85%] Built target cartographer.mapping.internal.constraints.constraint_builder_3d_test
+[5.248s] [ 85%] Built target cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_3d_test
+[5.251s] [ 86%] Built target cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_2d_test
+[5.293s] [ 86%] Built target cartographer.mapping.internal.motion_filter_test
+[5.322s] [ 87%] Built target cartographer.mapping.internal.optimization.cost_functions.spa_cost_function_2d_test
+[5.323s] [01mRunning Sphinx v4.3.2[39;49;00m
+[5.407s] [ 87%] Built target cartographer.mapping.internal.optimization.optimization_problem_3d_test
+[5.471s] [ 88%] Built target cartographer.mapping.internal.range_data_collator_test
+[5.475s] [ 89%] Built target cartographer.mapping.map_builder_test
+[5.486s] [ 90%] Built target cartographer.mapping.pose_graph_test
+[5.507s] [ 90%] Built target cartographer.mapping.pose_graph_trimmer_test
+[5.557s] [ 90%] Built target cartographer.mapping.pose_extrapolator_test
+[5.576s] [ 90%] Built target cartographer.mapping.internal.trajectory_connectivity_state_test
+[5.678s] [ 91%] Built target cartographer.mapping.probability_values_test
+[5.684s] [ 91%] Built target cartographer.mapping.value_conversion_tables_test
+[5.684s] [ 92%] Built target cartographer.mapping.trajectory_node_test
+[5.745s] [ 92%] Built target cartographer.mapping.submaps_test
+[5.843s] [ 92%] Built target cartographer.sensor.internal.collator_test
+[5.856s] [ 93%] Built target cartographer.sensor.compressed_point_cloud_test
+[5.922s] [ 94%] Built target cartographer.sensor.landmark_data_test
+[5.928s] [ 95%] Built target cartographer.sensor.internal.ordered_multi_queue_test
+[5.967s] [ 95%] Built target cartographer.sensor.internal.voxel_filter_test
+[5.967s] [ 96%] Built target cartographer.sensor.internal.trajectory_collator_test
+[5.979s] [ 96%] Built target cartographer.sensor.map_by_time_test
+[6.095s] [ 97%] Built target cartographer.sensor.point_cloud_test
+[6.129s] [ 97%] Built target cartographer.transform.timestamped_transform_test
+[6.159s] [ 98%] Built target cartographer.transform.rigid_transform_test
+[6.160s] [ 98%] Built target cartographer.sensor.range_data_test
+[6.188s] [ 98%] Built target cartographer.transform.transform_test
+[6.194s] [100%] Built target cartographer.transform.transform_interpolation_buffer_test
+[6.706s] [01mloading pickled environment... [39;49;00mdone
+[6.730s] [01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[6.739s] [01mbuilding [html]: [39;49;00mtargets for 0 source files that are out of date
+[6.747s] [01mupdating environment: [39;49;00m0 added, 0 changed, 0 removed
+[6.752s] [01mlooking for now-outdated files... [39;49;00mnone found
+[6.755s] [01mno targets are out of date.[39;49;00m
+[6.756s] [01mbuild succeeded.[39;49;00m
+[6.756s] 
+[6.757s] The HTML pages are in html.
+[7.140s] [100%] Built target build_doc
+[7.232s] Invoked command in '/root/ros2_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_opencv:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/cartographer -- -j8 -l8
+[7.239s] Invoking command in '/root/ros2_ws/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_opencv:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/cartographer
+[7.275s] -- Install configuration: "Release"
+[7.276s] -- Up-to-date: /root/ros2_ws/install/cartographer/share/cartographer/package.xml
+[7.277s] -- Up-to-date: /root/ros2_ws/install/cartographer/share/cartographer//configuration_files
+[7.278s] -- Up-to-date: /root/ros2_ws/install/cartographer/share/cartographer//configuration_files/trajectory_builder_3d.lua
+[7.279s] -- Up-to-date: /root/ros2_ws/install/cartographer/share/cartographer//configuration_files/map_builder_server.lua
+[7.279s] -- Up-to-date: /root/ros2_ws/install/cartographer/share/cartographer//configuration_files/trajectory_builder_2d.lua
+[7.280s] -- Up-to-date: /root/ros2_ws/install/cartographer/share/cartographer//configuration_files/trajectory_builder.lua
+[7.280s] -- Up-to-date: /root/ros2_ws/install/cartographer/share/cartographer//configuration_files/map_builder.lua
+[7.280s] -- Up-to-date: /root/ros2_ws/install/cartographer/share/cartographer//configuration_files/laser_2d.lua
+[7.281s] -- Up-to-date: /root/ros2_ws/install/cartographer/share/cartographer//configuration_files/pose_graph.lua
+[7.281s] -- Up-to-date: /root/ros2_ws/install/cartographer/share/cartographer//cmake
+[7.282s] -- Up-to-date: /root/ros2_ws/install/cartographer/share/cartographer//cmake/modules
+[7.283s] -- Up-to-date: /root/ros2_ws/install/cartographer/share/cartographer//cmake/modules/FindSphinx.cmake
+[7.284s] -- Up-to-date: /root/ros2_ws/install/cartographer/share/cartographer//cmake/modules/FindLuaGoogle.cmake
+[7.284s] -- Up-to-date: /root/ros2_ws/install/cartographer/share/cartographer//cmake/modules/FindGMock.cmake
+[7.285s] -- Up-to-date: /root/ros2_ws/install/cartographer/share/cartographer//cmake/modules/FindEigen3.cmake
+[7.286s] -- Up-to-date: /root/ros2_ws/install/cartographer/share/cartographer//cmake/functions.cmake
+[7.287s] -- Up-to-date: /root/ros2_ws/install/cartographer/bin/cartographer_autogenerate_ground_truth
+[7.287s] -- Up-to-date: /root/ros2_ws/install/cartographer/bin/cartographer_compute_relations_metrics
+[7.288s] -- Up-to-date: /root/ros2_ws/install/cartographer/bin/cartographer_pbstream
+[7.290s] -- Up-to-date: /root/ros2_ws/install/cartographer/bin/cartographer_print_configuration
+[7.290s] -- Up-to-date: /root/ros2_ws/install/cartographer/lib/libcartographer.a
+[7.291s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/common/configuration_file_resolver.h
+[7.292s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/common/fixed_ratio_sampler.h
+[7.294s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/common/histogram.h
+[7.294s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/common/lua.h
+[7.294s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/common/lua_parameter_dictionary.h
+[7.295s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/common/math.h
+[7.297s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/common/port.h
+[7.299s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/common/task.h
+[7.300s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/common/thread_pool.h
+[7.305s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/common/time.h
+[7.306s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/ground_truth/autogenerate_ground_truth.h
+[7.307s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/ground_truth/relations_text_file.h
+[7.307s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/color.h
+[7.309s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/coloring_points_processor.h
+[7.310s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/counting_points_processor.h
+[7.311s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/draw_trajectories.h
+[7.311s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/file_writer.h
+[7.312s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/fixed_ratio_sampling_points_processor.h
+[7.312s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/frame_id_filtering_points_processor.h
+[7.312s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/hybrid_grid_points_processor.h
+[7.312s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/image.h
+[7.314s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/intensity_to_color_points_processor.h
+[7.314s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/min_max_range_filtering_points_processor.h
+[7.315s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/null_points_processor.h
+[7.315s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/outlier_removing_points_processor.h
+[7.315s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/pcd_writing_points_processor.h
+[7.316s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/ply_writing_points_processor.h
+[7.316s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/points_batch.h
+[7.316s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/points_processor.h
+[7.317s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/points_processor_pipeline_builder.h
+[7.317s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/probability_grid_points_processor.h
+[7.317s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/proto_stream.h
+[7.317s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/proto_stream_deserializer.h
+[7.319s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/proto_stream_interface.h
+[7.320s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/serialization_format_migration.h
+[7.321s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/submap_painter.h
+[7.321s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/vertical_range_filtering_points_processor.h
+[7.321s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/xray_points_processor.h
+[7.321s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/xyz_writing_points_processor.h
+[7.322s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/2d/grid_2d.h
+[7.322s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/2d/map_limits.h
+[7.322s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/2d/probability_grid.h
+[7.322s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/2d/probability_grid_range_data_inserter_2d.h
+[7.322s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/2d/submap_2d.h
+[7.323s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/2d/xy_index.h
+[7.323s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/3d/hybrid_grid.h
+[7.323s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/3d/range_data_inserter_3d.h
+[7.323s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/3d/submap_3d.h
+[7.324s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/detect_floors.h
+[7.325s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/grid_interface.h
+[7.325s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/id.h
+[7.331s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/imu_tracker.h
+[7.332s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/map_builder.h
+[7.333s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/map_builder_interface.h
+[7.334s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/pose_extrapolator.h
+[7.334s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/pose_extrapolator_interface.h
+[7.335s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/pose_graph.h
+[7.335s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/pose_graph_interface.h
+[7.335s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/pose_graph_trimmer.h
+[7.335s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/probability_values.h
+[7.336s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/range_data_inserter_interface.h
+[7.336s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/submaps.h
+[7.336s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/trajectory_builder_interface.h
+[7.337s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/trajectory_node.h
+[7.337s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/value_conversion_tables.h
+[7.337s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/metrics/counter.h
+[7.337s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/metrics/family_factory.h
+[7.338s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/metrics/gauge.h
+[7.339s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/metrics/histogram.h
+[7.340s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/metrics/register.h
+[7.340s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/sensor/collator_interface.h
+[7.341s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/sensor/compressed_point_cloud.h
+[7.341s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/sensor/data.h
+[7.342s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/sensor/fixed_frame_pose_data.h
+[7.342s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/sensor/imu_data.h
+[7.343s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/sensor/landmark_data.h
+[7.343s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/sensor/map_by_time.h
+[7.343s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/sensor/odometry_data.h
+[7.343s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/sensor/point_cloud.h
+[7.344s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/sensor/range_data.h
+[7.345s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/sensor/rangefinder_point.h
+[7.346s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/sensor/timed_point_cloud_data.h
+[7.346s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/transform/rigid_transform.h
+[7.347s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/transform/timestamped_transform.h
+[7.347s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/transform/transform.h
+[7.347s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/transform/transform_interpolation_buffer.h
+[7.348s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/io/fake_file_writer.h
+[7.348s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/transform/rigid_transform_test_helpers.h
+[7.348s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/common/proto/ceres_solver_options.pb.h
+[7.349s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/ground_truth/proto/relations.pb.h
+[7.349s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/cell_limits_2d.pb.h
+[7.349s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/connected_components.pb.h
+[7.349s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/grid_2d.pb.h
+[7.350s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/grid_2d_options.pb.h
+[7.350s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/hybrid_grid.pb.h
+[7.351s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/local_trajectory_builder_options_2d.pb.h
+[7.353s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/local_trajectory_builder_options_3d.pb.h
+[7.354s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/map_builder_options.pb.h
+[7.354s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/map_limits.pb.h
+[7.356s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/motion_filter_options.pb.h
+[7.358s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/normal_estimation_options_2d.pb.h
+[7.359s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/pose_extrapolator_options.pb.h
+[7.359s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/pose_graph.pb.h
+[7.360s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/pose_graph/constraint_builder_options.pb.h
+[7.361s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/pose_graph/optimization_problem_options.pb.h
+[7.362s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/pose_graph_options.pb.h
+[7.365s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/probability_grid.pb.h
+[7.365s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/probability_grid_range_data_inserter_options_2d.pb.h
+[7.367s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/range_data_inserter_options.pb.h
+[7.369s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/range_data_inserter_options_3d.pb.h
+[7.369s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_2d.pb.h
+[7.370s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_3d.pb.h
+[7.370s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_2d.pb.h
+[7.371s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_3d.pb.h
+[7.372s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/scan_matching/real_time_correlative_scan_matcher_options.pb.h
+[7.377s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/serialization.pb.h
+[7.378s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/submap.pb.h
+[7.378s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/submap_visualization.pb.h
+[7.379s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/submaps_options_2d.pb.h
+[7.379s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/submaps_options_3d.pb.h
+[7.379s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/trajectory.pb.h
+[7.379s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/trajectory_builder_options.pb.h
+[7.380s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/trajectory_node_data.pb.h
+[7.380s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/tsdf_2d.pb.h
+[7.380s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/mapping/proto/tsdf_range_data_inserter_options_2d.pb.h
+[7.382s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/sensor/proto/adaptive_voxel_filter_options.pb.h
+[7.385s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/sensor/proto/sensor.pb.h
+[7.386s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/transform/proto/timestamped_transform.pb.h
+[7.386s] -- Up-to-date: /root/ros2_ws/install/cartographer/include/cartographer/transform/proto/transform.pb.h
+[7.386s] -- Up-to-date: /root/ros2_ws/install/cartographer/share/cartographer/cmake/CartographerTargets.cmake
+[7.387s] -- Up-to-date: /root/ros2_ws/install/cartographer/share/cartographer/cmake/CartographerTargets-release.cmake
+[7.387s] -- Up-to-date: /root/ros2_ws/install/cartographer/share/cartographer/cartographer-config.cmake
+[7.390s] Invoked command in '/root/ros2_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_opencv:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/cartographer

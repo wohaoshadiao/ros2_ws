@@ -1,0 +1,1 @@
+Invoking command in '/home/warnie/Documents/VSCODE/ros2_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/warnie/Documents/VSCODE/ros2_ws/install/ros2_opencv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/warnie/Documents/VSCODE/ros2_ws/build/cartographer_ros_msgs -- -j8 -l8

@@ -1,0 +1,104 @@
+[0.096s] Invoking command in '/root/ros2_ws/build/robocar_test_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_opencv:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/robocar_test_cpp -- -j8 -l8
+[1.542s] [35m[1mConsolidate compiler generated dependencies of target lidar_listener[0m
+[1.543s] [ 33%] Built target listener
+[1.543s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_listener.dir/src/receive_lidar_function.cpp.o[0m
+[1.543s] [ 83%] Built target talker
+[12.544s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:5:36:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[12.545s]     5 | auto cmd_msg_test = std_msgs::msg::[01;31m[KString[m[K();
+[12.546s]       |                                    [01;31m[K^~~~~~[m[K
+[12.716s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:108:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope
+[12.717s]   108 |     rclcpp::Publisher<[01;31m[Kgeometry_msgs[m[K::msg::Twist>::SharedPtr cmd_pub_;
+[12.717s]       |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[12.717s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:108:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[12.718s]   108 |     rclcpp::Publisher<geometry_msgs::msg::Twist[01;31m[K>[m[K::SharedPtr cmd_pub_;
+[12.718s]       |                                                [01;31m[K^[m[K
+[12.718s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:108:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[12.719s]   108 |     rclcpp::Publisher<geometry_msgs::msg::Twist>::[01;31m[KSharedPtr[m[K cmd_pub_;
+[12.719s]       |                                                   [01;31m[K^~~~~~~~~[m[K
+[12.719s]       |                                                            [32m[K;[m[K
+[12.721s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:108:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_pub_[m[K’ does not name a type
+[12.722s]   108 |     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr [01;31m[Kcmd_pub_[m[K;
+[12.722s]       |                                                             [01;31m[K^~~~~~~~[m[K
+[12.745s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:[m[K In constructor ‘[01m[KLidarListener::LidarListener()[m[K’:
+[12.745s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:12:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[12.745s]    12 |         [01;31m[Ksubscription_[m[K = this->create_subscription<sensor_msgs::msg::LaserScan>(
+[12.746s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[12.746s]       |         [32m[Krmw_subscription_t[m[K
+[12.791s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:18:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_pub_[m[K’ was not declared in this scope
+[12.792s]    18 |         [01;31m[Kcmd_pub_[m[K = this->create_publisher<geometry_msgs::msg::Twist>(
+[12.792s]       |         [01;31m[K^~~~~~~~[m[K
+[12.816s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:18:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope
+[12.816s]    18 |         cmd_pub_ = this->create_publisher<[01;31m[Kgeometry_msgs[m[K::msg::Twist>(
+[12.817s]       |                                           [01;31m[K^~~~~~~~~~~~~[m[K
+[12.817s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:18:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[12.817s]    18 |         cmd_pub_ = this->[01;31m[Kcreate_publisher<geometry_msgs::msg::Twist>[m[K(
+[12.817s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.818s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:18:69:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLidarListener::create_publisher<<expression error> >(const char [9], int)[m[K’
+[12.818s]    18 |         cmd_pub_ = [01;31m[Kthis->create_publisher<geometry_msgs::msg::Twist>([m[K
+[12.818s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[12.819s]    19 | [01;31m[K            "/cmd_vel", 10)[m[K;
+[12.819s]       |             [01;31m[K~~~~~~~~~~~~~~~[m[K                                          
+[12.820s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[12.820s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[12.820s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.821s]                  from [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:2[m[K:
+[12.821s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[12.821s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[12.821s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[12.822s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.823s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:18:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[12.823s]    18 |         cmd_pub_ = [01;31m[Kthis->create_publisher<geometry_msgs::msg::Twist>([m[K
+[12.823s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[12.823s]    19 | [01;31m[K            "/cmd_vel", 10)[m[K;
+[12.824s]       |             [01;31m[K~~~~~~~~~~~~~~~[m[K                                          
+[12.841s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_pub_test[m[K’ was not declared in this scope; did you mean ‘[01m[Kcmd_msg_test[m[K’?
+[12.842s]    22 |         [01;31m[Kcmd_pub_test[m[K = this->create_publisher<std_msgs::msg::String>(
+[12.842s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[12.843s]       |         [32m[Kcmd_msg_test[m[K
+[12.845s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:22:62:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[12.846s]    22 |         cmd_pub_test = this->create_publisher<std_msgs::msg::[01;31m[KString[m[K>(
+[12.846s]       |                                                              [01;31m[K^~~~~~[m[K
+[12.846s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:22:69:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLidarListener::create_publisher<<expression error> >(const char [14], int)[m[K’
+[12.847s]    22 |         cmd_pub_test = [01;31m[Kthis->create_publisher<std_msgs::msg::String>([m[K
+[12.847s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[12.847s]    23 | [01;31m[K            "/cmd_msg_test", 10)[m[K;
+[12.847s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~[m[K                                     
+[12.848s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[12.848s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[12.848s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.849s]                  from [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:2[m[K:
+[12.849s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[12.849s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[12.849s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[12.850s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.850s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:22:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[12.850s]    22 |         cmd_pub_test = [01;31m[Kthis->create_publisher<std_msgs::msg::String>([m[K
+[12.850s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[12.851s]    23 | [01;31m[K            "/cmd_msg_test", 10)[m[K;
+[12.851s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~[m[K                                     
+[12.856s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:[m[K In member function ‘[01m[Kvoid LidarListener::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[12.857s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:73:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ has not been declared
+[12.858s]    73 |         [01;31m[Kgeometry_msgs[m[K::msg::Twist cmd_msg;
+[12.859s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[12.876s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:78:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_msg[m[K’ was not declared in this scope
+[12.877s]    78 |             [01;31m[Kcmd_msg[m[K.linear.x = 0.3;
+[12.878s]       |             [01;31m[K^~~~~~~[m[K
+[12.895s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:90:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_msg[m[K’ was not declared in this scope
+[12.895s]    90 |                 [01;31m[Kcmd_msg[m[K.angular.z = 0.5;
+[12.896s]       |                 [01;31m[K^~~~~~~[m[K
+[12.911s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:95:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_msg[m[K’ was not declared in this scope
+[12.912s]    95 |                 [01;31m[Kcmd_msg[m[K.angular.z = -0.5;
+[12.912s]       |                 [01;31m[K^~~~~~~[m[K
+[12.928s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:100:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_msg[m[K’ was not declared in this scope
+[12.928s]   100 |                 [01;31m[Kcmd_msg[m[K.linear.x = -0.2;
+[12.929s]       |                 [01;31m[K^~~~~~~[m[K
+[12.946s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:104:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_pub_[m[K’ was not declared in this scope
+[12.947s]   104 |         [01;31m[Kcmd_pub_[m[K->publish(cmd_msg);
+[12.947s]       |         [01;31m[K^~~~~~~~[m[K
+[12.965s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:104:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_msg[m[K’ was not declared in this scope
+[12.965s]   104 |         cmd_pub_->publish([01;31m[Kcmd_msg[m[K);
+[12.966s]       |                           [01;31m[K^~~~~~~[m[K
+[18.521s] gmake[2]: *** [CMakeFiles/lidar_listener.dir/build.make:76: CMakeFiles/lidar_listener.dir/src/receive_lidar_function.cpp.o] Error 1
+[18.521s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/lidar_listener.dir/all] Error 2
+[18.521s] gmake: *** [Makefile:146: all] Error 2
+[18.525s] Invoked command in '/root/ros2_ws/build/robocar_test_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_opencv:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/robocar_test_cpp -- -j8 -l8

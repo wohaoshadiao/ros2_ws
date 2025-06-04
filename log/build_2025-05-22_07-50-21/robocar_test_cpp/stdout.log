@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target lidar_listener[0m
+[ 66%] Built target talker
+[ 66%] Built target listener
+[ 83%] [32mBuilding CXX object CMakeFiles/lidar_listener.dir/src/receive_lidar_function.cpp.o[0m
+[100%] [32m[1mLinking CXX executable lidar_listener[0m
+[100%] Built target lidar_listener
+-- Install configuration: ""
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/lib/robocar_test_cpp/talker
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/lib/robocar_test_cpp/listener
+-- Installing: /root/ros2_ws/install/robocar_test_cpp/lib/robocar_test_cpp/lidar_listener
+-- Set runtime path of "/root/ros2_ws/install/robocar_test_cpp/lib/robocar_test_cpp/lidar_listener" to ""
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/ament_index/resource_index/package_run_dependencies/robocar_test_cpp
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/ament_index/resource_index/parent_prefix_path/robocar_test_cpp
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/environment/path.sh
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/environment/path.dsv
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/local_setup.bash
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/local_setup.sh
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/local_setup.zsh
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/local_setup.dsv
+-- Installing: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/package.dsv
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/ament_index/resource_index/packages/robocar_test_cpp
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/cmake/robocar_test_cppConfig.cmake
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/cmake/robocar_test_cppConfig-version.cmake
+-- Up-to-date: /root/ros2_ws/install/robocar_test_cpp/share/robocar_test_cpp/package.xml

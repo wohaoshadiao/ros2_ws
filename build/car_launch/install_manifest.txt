@@ -1,0 +1,16 @@
+/root/ros2_ws/install/car_launch/share/car_launch//launch/car_launch.launch.py
+/root/ros2_ws/install/car_launch/share/ament_index/resource_index/package_run_dependencies/car_launch
+/root/ros2_ws/install/car_launch/share/ament_index/resource_index/parent_prefix_path/car_launch
+/root/ros2_ws/install/car_launch/share/car_launch/environment/ament_prefix_path.sh
+/root/ros2_ws/install/car_launch/share/car_launch/environment/ament_prefix_path.dsv
+/root/ros2_ws/install/car_launch/share/car_launch/environment/path.sh
+/root/ros2_ws/install/car_launch/share/car_launch/environment/path.dsv
+/root/ros2_ws/install/car_launch/share/car_launch/local_setup.bash
+/root/ros2_ws/install/car_launch/share/car_launch/local_setup.sh
+/root/ros2_ws/install/car_launch/share/car_launch/local_setup.zsh
+/root/ros2_ws/install/car_launch/share/car_launch/local_setup.dsv
+/root/ros2_ws/install/car_launch/share/car_launch/package.dsv
+/root/ros2_ws/install/car_launch/share/ament_index/resource_index/packages/car_launch
+/root/ros2_ws/install/car_launch/share/car_launch/cmake/car_launchConfig.cmake
+/root/ros2_ws/install/car_launch/share/car_launch/cmake/car_launchConfig-version.cmake
+/root/ros2_ws/install/car_launch/share/car_launch/package.xml

@@ -1,0 +1,14 @@
+[0.036s] Invoking command in '/root/ros2_ws/build/robocar_test_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_opencv:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/robocar_test_cpp -- -j8 -l8
+[0.151s] [35m[1mConsolidate compiler generated dependencies of target lidar_listener[0m
+[0.190s] [ 33%] Built target talker
+[0.193s] [ 66%] Built target listener
+[0.203s] [ 83%] [32mBuilding CXX object CMakeFiles/lidar_listener.dir/src/receive_lidar_function.cpp.o[0m
+[7.569s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:[m[K In constructor ‘[01m[KLidarListener::LidarListener()[m[K’:
+[7.569s] [01m[K/root/ros2_ws/src/robocar_test_cpp/src/receive_lidar_function.cpp:11:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[7.569s]    11 |         [01;31m[Ksubscription_[m[K = this->create_subscription<sensor_msgs::msg::LaserScan>(
+[7.569s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[7.570s]       |         [32m[Krmw_subscription_t[m[K
+[13.052s] gmake[2]: *** [CMakeFiles/lidar_listener.dir/build.make:76: CMakeFiles/lidar_listener.dir/src/receive_lidar_function.cpp.o] Error 1
+[13.052s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/lidar_listener.dir/all] Error 2
+[13.053s] gmake: *** [Makefile:146: all] Error 2
+[13.056s] Invoked command in '/root/ros2_ws/build/robocar_test_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_opencv:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/robocar_test_cpp -- -j8 -l8
