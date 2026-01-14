@@ -1,12 +1,27 @@
-
 #include "bsp_sbus.h"
 #include "bsp.h"
 #include "string.h"
 
+/*****Include Path******/
+#include "stdio.h"
+#include <cmath>
+#include <algorithm>
+/*****Include Path******/
 
 #define SBUS_RECV_MAX    25
 #define SBUS_START       0x0F
 #define SBUS_END         0x00
+
+struct MotorSpeed {
+   const
+    uint16_t motor_speed_1, motor_speed_2, motor_speed_3, motor_speed_4;
+};
+
+class GlideBot{
+public:
+
+private:
+};
 
 // Parameters related to receiving data  接收数据相关参数
 uint8_t sbus_start = 0;
@@ -126,7 +141,8 @@ void SBUS_Handle_Manual(void)
     {
         int res = SBUS_Parse_Data();
         sbus_new_cmd = 0;
-        if (res) return;
+        if (res)
+            return;
 #if SBUS_ALL_CHANNELS           // 条件编译，灵活调度空间.
         printf("%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d\r\n",
                g_sbus_channels[0], g_sbus_channels[1], g_sbus_channels[2],
@@ -235,3 +251,16 @@ void SBUS_Handle_Manual(void)
     }
 
 }
+
+// SBUS数据线性映射,范围在 [-1,1]
+// The SBUS protocol is converted to PWM and passed to the motor control function
+void Linear_Mapping() {
+
+}
+
+// Motor Output.
+// The SBUS protocol is converted to PWM and passed to the motor control function
+void Move_ALL_Direction() {
+
+}
+
