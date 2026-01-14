@@ -109,7 +109,7 @@ int main(void)
     /* USER CODE END WHILE */
 //      Bsp_Loop_Test_PID();
 //      Bsp_Loop_Manual_Control();
-      Bsp_Loop_Test_ros2_cmdvel();
+   Bsp_Loop_Test_ros2_cmdvel();
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
